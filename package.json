@@ -14,6 +14,7 @@
     "tailwindcss": "^3.3.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://jehman06.github.io/Portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
