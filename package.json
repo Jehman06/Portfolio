@@ -17,7 +17,8 @@
   "homepage": "https://jehman06.github.io/Portfolio/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "build": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
