@@ -21,7 +21,7 @@ export default function Projects() {
                             href={project.link}
                             key={project.image}
                             target="_blank"
-                            className="sm:w-1/2 w-1/2 p-4">
+                            className="sm:w-1/2 w-full sm:p-4">
                             <div className="flex relative h-full">
                                 <img
                                     alt="gallery"
