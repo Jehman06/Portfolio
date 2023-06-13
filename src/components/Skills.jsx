@@ -12,7 +12,15 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates dolores ipsa. Quo placeat sit fugit, repudiandae voluptatibus ut necessitatibus magnam, mollitia consequatur error blanditiis praesentium dolor impedit pariatur eius.
+                        Proficiency in front-end technologies such as HTML5, CSS, and JavaScript and React.
+                        <br />
+                        Strong back-end development skills with expertise in Python, Express, SQL, and NoSQL databases.
+                        <br />
+                        Experience with styling libraries like Bootstrap, MaterialUI, MaterialDesign and Tailwind.
+                        <br />
+                        Enthusiastic learner with a passion for staying updated with the latest industry trends.
+                        <br />
+                        Effective team player with excellent collaboration and communication skills.
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

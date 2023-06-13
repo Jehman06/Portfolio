@@ -10,7 +10,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> I love to build amazing apps.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis qui corrupti sint ducimus, tenetur esse nesciunt cumque dignissimos laboriosam. Ad placeat totam voluptas? Quos officiis illum ut dolore ducimus?
+                        As a full-stack developer, I possess a diverse skill set that spans front-end and back-end development. I have expertise in HTML5, CSS, JavaScript, Python, React, Express, SQL, NoSQL, and styling libraries such as Bootstrap, MaterialUI, and MaterialDesign. This proficiency enables me to contribute to all aspects of the development process, from designing intuitive user interfaces to building scalable server-side systems.
                     </p>
                     <div className="flex justify-center">
                         <a
@@ -25,14 +25,6 @@ export default function About() {
                                 See My Past Work
                             </a>
                         </div>
-                    </div>
-                    <br />
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img
-                            className="object-cover object-center rounded"
-                            alt="Me"
-                            src="./me.jpeg"
-                        />
                     </div>
                 </div>
             </div>
