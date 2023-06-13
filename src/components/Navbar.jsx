@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export default function Navbar() {
     return (
@@ -20,7 +19,6 @@ export default function Navbar() {
                     <div className="flex flex-col md:flex-row items-center mt-4 md:mt-0">
                         <span className="md:mr-3">Hire Me</span>
                         <a href="#contact" className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base">
-                            <ArrowRightIcon className="w-4 h-4 ml-1" />
                         </a>
                     </div>
                 </nav>

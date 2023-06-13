@@ -15,14 +15,15 @@ export default function Projects() {
                         Here are a few apps that I built.
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
-                    {projects.map((project, index) => (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+                    {projects.map((project) => (
                         <a
                             href={project.link}
                             key={project.image}
                             target="_blank"
-                            className={`sm:w-1/2 w-full sm:p-4 ${index !== 0 ? 'mt-4' : ''}`}>
-                            <div className="flex relative h-full">
+                            className="p-4"
+                        >
+                            <div className="flex relative h-64">
                                 <img
                                     alt="gallery"
                                     className="absolute inset-0 w-full h-full object-cover object-center"
@@ -43,5 +44,5 @@ export default function Projects() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
