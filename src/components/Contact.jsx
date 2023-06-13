@@ -85,6 +85,7 @@ export default function Contact() {
                                 background: 'none',
                                 boxShadow: 'inset 0 0 0px 1000px rgb(31, 41, 55)',
                                 WebkitTextFillColor: '#fff',
+                                appearance: 'none'
                             }}
                         />
                     </div>
@@ -101,6 +102,7 @@ export default function Contact() {
                                 background: 'none',
                                 boxShadow: 'inset 0 0 0px 1000px rgb(31, 41, 55)',
                                 WebkitTextFillColor: '#fff',
+                                appearance: 'none'
                             }}
                         />
                         <ValidationError
@@ -123,6 +125,7 @@ export default function Contact() {
                                 background: 'none',
                                 boxShadow: 'inset 0 0 0px 1000px rgb(31, 41, 55)',
                                 WebkitTextFillColor: '#fff',
+                                appearance: 'none'
                             }}
                         />
                         <ValidationError
