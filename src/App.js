@@ -4,6 +4,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import ScrollButton from './components/ScrollButton';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+      <ScrollButton />
     </div>
   );
 }
