@@ -13,12 +13,12 @@ export const Content = styled.div`
 export const Button = styled.div`
    position: fixed; 
    width: 20px;
-   right: 20px;
+   right: 29px;
    top: 50%;
    transform: translateY(-50%);
    height: 20px;
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
-   color: green;
+   color: #4CAF50;
 `;
