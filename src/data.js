@@ -2,14 +2,14 @@ export const projects = [
     {
         title: "Weather App",
         subtitle: "React",
-        description: "A single-page web application that uses the OpenWeather API. The 2 radio buttons allow to convert Imperial to Metric, causing a re-render with the correct information.",
+        description: "A single-page web application that uses the OpenWeather API. The 2 radio buttons allow to convert Imperial to Metric.",
         image: "./weather-app-gif.gif",
         link: "https://jehman06.github.io/weather-app/"
     },
     {
         title: 'Fit by Me',
         subtitle: 'MERN Stack',
-        description: 'A fitness app that lets you find thousands of workouts and recipes and track them in one page.',
+        description: 'A fitness app that lets you find thousands of workouts and recipes and track them in one page. (Collaboration with classmates)',
         image: './Fit-by-Me.png',
         link: 'https://github.com/Jehman06/myfitness_app.git'
     },
@@ -21,11 +21,11 @@ export const projects = [
         link: 'https://github.com/Jehman06/project-REST-rant.git'
     },
     {
-        title: 'React-A-Mole',
+        title: 'Calculator',
         subtitle: 'React',
-        description: 'Whac-A-Mole mini-game.',
-        image: "./React-A-Mole.gif",
-        link: 'https://github.com/Jehman06/React-A-Mole.git'
+        description: 'Calculator app',
+        image: "./calculator.png",
+        link: 'https://jehman06.github.io/Calculator/'
     }
 ]
 

@@ -11,9 +11,6 @@ export default function Projects() {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Apps I've Built
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Here are a few apps that I built.
-                    </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
                     {projects.map((project) => (

@@ -21,4 +21,5 @@ export const Button = styled.div`
    z-index: 1;
    cursor: pointer;
    color: #4CAF50;
+   transform: translate3d(0, 0, 0);
 `;

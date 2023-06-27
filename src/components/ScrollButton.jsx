@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import { FaArrowCircleUp } from 'react-icons/fa';
 import { Button } from "./Styles";
 import { debounce } from 'lodash';
@@ -13,7 +13,7 @@ export default function ScrollButton() {
         } else if (scrolled <= 300) {
             setVisible(false);
         }
-    }, 10); // Adjust the debounce delay as needed
+    }, 100); // Adjust debounce delay as needed
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -21,6 +21,18 @@ export default function ScrollButton() {
             behavior: 'smooth'
         });
     };
+
+    useLayoutEffect(() => {
+        const handleInitialScroll = () => {
+            handleScroll();
+            window.removeEventListener('scroll', handleInitialScroll);
+        };
+
+        window.addEventListener('scroll', handleInitialScroll);
+        return () => {
+            window.removeEventListener('scroll', handleInitialScroll);
+        };
+    }, [handleScroll]);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
